@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Navbar extends Component {
   render() {
     return (
-            <nav className="navbar navbar-expand-lg bg-light">
+            <nav className="navbar navbar-expand-lg bg-secondary">
             <div className="container-fluid">
               <a className="navbar-brand" href="/"><img src="https://cdn-icons-png.flaticon.com/128/2322/2322261.png" alt="" className='mx-2' style={{height:"1.8rem"}}/><strong>NEWS-MONK</strong></a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@ export class Navbar extends Component {
                   </li>
                   
                 </ul>
-                
+                <h7>Made by <a href="https://github.com/Suraj-kumar-sahu?tab=overview&from=2022-07-01&to=2022-07-06" target="_blank" class="text-decoration-none" style={{color:"black"}}><strong>Suraj Kumar Sahu</strong></a></h7>
               </div>
             </div>
           </nav>
